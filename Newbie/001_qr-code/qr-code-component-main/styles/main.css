@@ -64,12 +64,14 @@ video {
   font-family: var(--font-family);
   color: var(--color-blue);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .card-container {
-  max-width: 35rem;
+  max-width: 20rem;
+  background-color: var(--color-white);
   padding-top: var(--narrow-spacing);
   padding-right: var(--narrow-spacing);
   padding-bottom: var(--wide-spacing);
@@ -77,6 +79,7 @@ video {
   border-radius: 1.25rem;
   display: flex;
   flex-direction: column;
+  margin-bottom: var(--narrow-spacing);
 }
 
 .card-picture {
@@ -87,6 +90,7 @@ video {
 
 .card-content {
   padding: 0 var(--narrow-spacing);
+  text-align: center;
 }
 
 .card-content__title {
